@@ -1,0 +1,16 @@
+/* --------------widget-whatsapp-------------- */
+.whatsapp {
+  display: inline-block;
+  position: fixed;
+  right: 5px;
+  bottom: 40px;
+  z-index: 1;
+  height: auto;
+  padding: 0px;
+}
+
+@media screen and (max-width: 768px) {
+  .whatsapp {
+    display: inline-block;
+  }
+}/*# sourceMappingURL=Widget.css.map */

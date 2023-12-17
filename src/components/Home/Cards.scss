@@ -1,0 +1,13 @@
+
+
+.cards{
+  display: flex;
+  align-items: flex-start;
+
+  &:hover{
+    box-shadow: 10px 10px 10px -10px var(--white-700);
+    transition-property: all;
+    transition-duration: 0.5s;
+    transform: scale(1.01);
+  }
+}

@@ -1,0 +1,106 @@
+@charset "UTF-8";
+/*-----------CARDS ITEMS------*/
+.item-Card {
+  background-color: var(--white-50);
+  margin: 0;
+  width: auto;
+  height: auto;
+}
+.item-Card:hover {
+  box-shadow: 10px 10px 10px -10px var(--white-950);
+  transition-property: all;
+  transition-duration: 1s;
+}
+.item-Card .Col-item-Card-Left {
+  padding-right: 2px;
+}
+.item-Card .Col-item-Card-Right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-left: 5px;
+  padding-right: 2rem;
+}
+.item-Card .Col-item-Card-Right .item-Card-Header {
+  background-color: var(--white-50);
+  display: flex;
+  align-items: baseline;
+  justify-content: flex-start;
+  padding: 12px 15px 10px 15px;
+  height: auto;
+  max-height: 5vh;
+  font-size: 12px;
+}
+.item-Card .Col-item-Card-Right .item-Card-Body {
+  font-size: 14px;
+}
+.item-Card .Col-item-Card-Right .item-Card-footer {
+  background-color: var(--white-50);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 32px;
+  max-height: 6vh;
+}
+
+/*-----------El Complemento ItemCarousel------*/
+.ItemCarousel .item-imagen {
+  max-width: 70vh; /* Establece el máximo ancho */
+  max-height: 30vh; /* Establece el máximo alto */
+  width: 100%; /* Permite que el ancho se ajuste automáticamente */
+  height: 30vh; /* Permite que el alto se ajuste automáticamente */
+}
+
+/*-----------El Complemento Contact------*/
+.item-contactos {
+  display: flex;
+  justify-content: center;
+}
+
+/*-----------El Complemento ItemDetail------*/
+.ItemDetail-Carousel .item-imagen {
+  max-width: 100vh; /* Establece el máximo ancho */
+  max-height: 70vh; /* Establece el máximo alto */
+  width: 100%; /* Permite que el ancho se ajuste automáticamente */
+  height: 70vh; /* Permite que el alto se ajuste automáticamente */
+}
+
+.Card-ItemDetail {
+  margin-top: 3vh;
+}
+.Card-ItemDetail .CardBody-ItemDetail {
+  display: flex;
+  flex-direction: row;
+}
+
+.item-Card-Header {
+  background-color: var(--clr-white);
+  display: flex;
+  align-items: baseline;
+  justify-content: flex-start;
+  padding: 10px 15px 10px 15px;
+  height: auto;
+  max-height: 5vh;
+  font-size: 12px;
+}
+
+.item-Card-footer {
+  background-color: var(--clr-white);
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-size: 32px;
+  max-height: 6vh;
+}
+
+/*-----------Media------*/
+@media screen and (max-width: 991px) {
+  .Col-Carousel {
+    padding-right: 5px;
+    margin: 0;
+  }
+  .Col-CardBody {
+    padding-left: 5px;
+    margin: 0;
+  }
+}/*# sourceMappingURL=Item.css.map */

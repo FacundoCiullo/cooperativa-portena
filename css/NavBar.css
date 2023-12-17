@@ -1,0 +1,32 @@
+.navbar .nav-link {
+  font-size: 14px;
+  margin: 0px 8px;
+  position: relative;
+}
+.navbar .nav-link::after {
+  content: "";
+  position: absolute;
+  background-color: var(--white-600);
+  height: 2px;
+  width: 0;
+  left: 0;
+  bottom: 0px;
+  transition: width 0.3s;
+}
+.navbar .nav-link:hover::after {
+  width: 100%;
+}
+.navbar .navbar-collapse {
+  justify-content: center;
+}
+.navbar .navbar-collapse .navbar-nav {
+  align-items: center;
+}
+.navbar .logo {
+  margin: 0 15px;
+}
+.navbar .logo:hover {
+  transition-property: all;
+  transition-duration: 1s;
+  transform: scale(1.05);
+}/*# sourceMappingURL=NavBar.css.map */

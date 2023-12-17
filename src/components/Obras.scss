@@ -1,0 +1,60 @@
+.obras-de-gas {
+  padding: 20px;
+  text-align: center;
+
+  .obras {
+    margin: 20px;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    display: inline-block;
+    vertical-align: top;
+    max-width: 32vh;
+    height: auto;
+    width: 100%;
+    img {
+      max-width: 32vh;
+      width: 100%;
+      height: 20vh;
+    }
+    h3 {
+      font-size: 1.5rem;
+      margin: 10px 0;
+    }
+    p {
+      font-size: 1rem;
+      color: #666;
+    }
+  }
+}
+
+/* Estilos para .freelancer */
+.gas {
+  height: 15vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(64, 64, 64, 0.6));
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 2rem;
+  gap: 5px;
+  display: flex;
+  flex-direction: column; /* Cambiamos a column para que los elementos se apilen verticalmente */
+  justify-content: center;
+  align-items: center; /* Usamos align-items en lugar de align-content */
+  border-radius: 20px;
+  p{
+    color: var(--clr-white);
+  }
+  h3{
+    color: var(--clr-white);
+  }
+}
+
+
+.img-obras{
+  max-width: 60vh; 
+  max-height: 30vh; 
+  width: 100%; 
+  height: 30vh;
+}

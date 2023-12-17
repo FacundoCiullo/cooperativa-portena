@@ -1,0 +1,38 @@
+/* --------------Footer-------------- */
+
+.texto-footer {
+  display: flex;
+  justify-content: center;
+  color: var(--clr-white);
+  font-size: .75rem;
+}
+
+
+.contenedor{
+  display: flex;
+  height: 6px; /* 100% del alto de la ventana */
+}
+
+/* Establecer el ancho de las columnas y los colores */
+.columna {
+  width: auto;
+  flex-grow: 1; /* Para que ocupen el espacio disponible y se distribuyan igualmente */
+  &.rojo {
+    background-color: rgb(255, 111, 0);
+  }
+  &.verde {
+    background-color: green;
+  }
+  &.azul {
+    background-color: blue;
+  }
+  &.amarillo {
+    background-color: yellow;
+  }
+  &.azull {
+    background-color: rgb(19, 1, 121);
+  }
+  &.morado {
+    background-color: purple;
+  }
+}
